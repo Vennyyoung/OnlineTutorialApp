@@ -1,0 +1,31 @@
+{
+  "name": "onlinetutorialapp",
+  "version": "1.0.0",
+  "description": "This App is meant for online tutorials...users can register as learners 0r tutors and also learners can also register as tutors if they meet certain criteria's",
+  "main": "server.js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vennyyoung/OnlineTutorialApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vennyyoung/OnlineTutorialApp/issues"
+  },
+  "homepage": "https://github.com/Vennyyoung/OnlineTutorialApp#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
