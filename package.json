@@ -2,9 +2,11 @@
   "name": "onlinetutorialapp",
   "version": "1.0.0",
   "description": "This App is meant for online tutorials...users can register as learners 0r tutors and also learners can also register as tutors if they meet certain criteria's",
-  "main": "server.js.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
